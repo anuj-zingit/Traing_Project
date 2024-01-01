@@ -1,0 +1,29 @@
+/* body{} */
+li{list-style: none;}
+a{text-decoration: none;}
+h1{font-size: 2rem;}
+#header{background-color: #e74c3c;color: #fff;}
+.navbar{background-color: #e74c3c;}
+.navbar ul{display: flex;}
+.navbar ul li{padding: 0.5rem;}
+.navbar ul li:hover{background-color: #c0392b;}
+.navbar ul li a{color: #fff;}
+/* nanner start here */
+.banner{background: url('../images/back-image.avif') no-repeat;background-size: cover;height:100vh;}
+.content{padding-top:5rem;}
+.content h1{background-color: rgba(255, 255,255, 0.8);font-size: 1.8rem;margin-bottom: 0;}
+.content p{background-color: rgba(231, 76, 60, 0.7);}
+/* services */
+.services{text-align: center;margin-top: 2rem;}
+.service-head{justify-content: center;margin-top:5rem;}
+
+.test img{border-radius: 3rem;}
+.testnomial{background-image: url(../images/phone.avif);background-size: cover;color: #fff;}
+
+@media only screen and (max-width: 767px) { 
+     .navbar ul{display:flex;position: absolute;}
+}
+
+.navbar-nav{margin-right: 6px;background-color: #fff;} 
+
+.custom-nav .navbar{background-color: #fff;}

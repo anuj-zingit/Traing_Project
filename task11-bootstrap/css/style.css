@@ -1,0 +1,8 @@
+.searchbar{display: flex; justify-content: space-between;background-color: aqua;}
+.navbar{background-color: darkkhaki;}
+.navbar ul{display: flex;}
+.navbar ul li{list-style: none;}
+.navbar ul li a{text-decoration: none;padding-left: 20px;font-size: 22px;}
+.body-container{background-color: coral;}
+.footer{background-color: darkgrey;}
+.left-body {display: flex;justify-content:center;align-content: center;height:100%;}

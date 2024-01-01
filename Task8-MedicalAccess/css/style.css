@@ -1,0 +1,96 @@
+*{margin:0;padding:0}
+body{
+    font-family: museo-sans, sans-serif;
+    font-style: normal;
+    color: #005CB9;
+    }
+    
+    th{font-size: 17px;font-weight: 200; font-family: museo-sans, sans-serif;}
+    td{color:#0E0E2C;font-size: 16px ; font-family: museo-sans, sans-serif;}
+li{list-style: none;}   
+#main{background: #fff;color: #00A7E1;font-weight: 400;}
+
+/* header start here */
+#header{display: flex;justify-content: space-between;align-items: center;}
+.tru-logo img{width: 130px;height: 54px;}
+.ma-logo img{width: 130.7px;height: 62px; padding-left: 10px;}
+.nav{align-content: center;display: flex;}
+.nav ul{display: flex;}
+.nav ul li{list-style: none;padding: 10px;}
+.nav ul li a{text-decoration: none;font-size:16px;font-family: museo-sans, sans-serif;color: #00A7E1;font-weight: 400;}
+.nav ul li a select {border: none ;color: #00A7E1;background: #F5F5F5;font-size: 16px;background-color: #fff;font-family: museo-sans, sans-serif;font-weight: 400;}
+
+/* body-container */
+#body-container{margin-top:25px;margin-left:10px;display: flex;}
+.left-container{width: 50%;height: auto;float: left;}
+.left-container img{border-radius: 30px;height: 762px;width: 100%;}
+.right-container{align-items: center;justify-content: center;float: right;display: flex;width: 50%;}
+.right-container input{height: 10px;padding:10px;width: 315px;margin-bottom: 16px;border-color:#4F4F4F ;border-style: 1px solid ;border-radius: 5px;font-size: 14px;}
+.login-box h1{font-size: 40px;line-height: 65.38px;text-decoration: underline;padding-bottom: 18px;justify-content: center;display: flex;font-weight: 400;}
+.login-box button{float: right;width: 83px;height: 35px;border-radius: 50px;background-color: #00A7E1;border: #00A7E1;color: #fff;font-size: 14px;}
+.Input-pass{padding-top: 26px;}
+/* onlinePage */
+.onlinePage{margin-right: 0px !important;}
+.bottom-border{border-bottom-color:#DDDDDD;border-bottom-style: solid;margin-left: 0px !important;}
+.right-logo {border-left-color:#DDDDDD;border-left-style: solid;}
+.padding{padding-left: 47px;}
+
+
+/*medical Section*/
+.left-sidebar{width: 22%;margin-top: 10px;float:left;}
+.user-detail{font-size: 24px;border-bottom-color:#DDDDDD;border-bottom-style: solid;display: flex;justify-content: center;padding-bottom: 10px;color: #000;}
+.user-detail .user-sort-name{font-size: 20px; font-weight: 500;background: #D9D9D9; border-radius: 80px;width: 26px;padding-top: 11px; height: 23px;padding: 7px;margin: 1px;    display: inline-block; vertical-align: middle; text-align: center;}
+.user-menubar{padding-bottom: 12px;margin: 15px;}
+.Insight{margin-bottom: 12px;}
+.user-menubar a{font-weight: 400;font-size: 16px;line-height: 27.24px;color: #00A7E1;text-decoration: none;padding: 10px;}   
+.user-menubar li{padding-bottom: 12px;}
+.user-name{padding: 6px;}
+.user-menubar img{width: 20px;height: 15px;}
+   /*rifgt sidebar*/
+.right-sidebar{background-color:#F5FBFE;width: 78%;height: 974px;float: right;}
+/* call center */
+.call-center{justify-content: space-between;display: flex;background-color: #fff;padding:12px;}
+.call-center span{font-size:20px;align-items: center;display: flex;}
+.call-center input{width: 18rem;height: 1rem;border-color: #00A7E1;;color: #00A7E1;border-radius:4px;border-style: 4px soloid;padding: 5px;border-top-style: double;border-left-style: double;}
+.call-center input:active,
+.call-center input:hover,
+.call-center input:focus 
+{border-color: #00A7E1;}
+/*paatientData*/
+.patient-data{margin: 2rem;background-color: #F7F7F1;}
+.patient-data ul{display: flex; padding: 5px;width: 100%;}
+.patient-data ul li{color:#0E0E2C;}
+.patient-data input{margin: 5px;}
+.item1{padding-left: 50px;}
+
+/* patientheader */
+.patientheader{display: flex;background-color: #224260;margin:2rem;border-radius: 15px 15px 0px 0px;height:12%;}
+.patientheader a{text-decoration: none;font-size:16px;color:#fff;text-align: center;}
+.header-col1{align-items: center;display: flex;justify-content: center;width: 20%;}
+.header-col2{border-left-color:#DDDDDD;border-left-style: solid;width: 50%;}
+.header-col3{border-left-color:#DDDDDD;border-left-style: solid;width: 30%;}
+.calls-Answered {display: flex;align-items: center;justify-content: center;height: 50%;border-bottom-color:#DDDDDD;border-bottom-style: solid;}
+.item{display: flex;justify-content: space-between;padding: 12px;}
+
+
+/* tablpage */
+table {border-collapse: collapse; width:100%;}
+table thead{color: #fff;font-size: 10px;}
+.table-head{border-bottom:1px solid;}
+.table-head th:first-child{ background-color: #224260;border-radius: 15px 0px 0px 0px;}
+.border-table-left{border-left:1px solid #DDDDDD;}
+.table-head th:last-child{ background-color: #224260;border-radius: 0px 15px 0px 0px;border-left: 1px solid ;}
+table td, th{  padding: 8px; text-align: center;}
+table tbody tr:nth-child(even) {  background-color: #dddddd;}
+table tfoot{background-color: #dddddd;}
+table tbody tr td:first-child{text-align:left;padding: 10px;}
+table tfoot tr td:first-child{text-align:left;padding: 10px;}
+.export a{text-decoration: none;font-size: 22px;color:#00A7E1 ;}
+.export a:hover{text-decoration: underline;}
+.export img:hover{opacity: 0.8;}
+.total-no{font-weight: 600;}
+
+#patientheader{padding: 0rem 2rem 0rem 2rem;}
+#patientheader table thead{background-color: #224260;}
+.PatRegRateTable th:first-child{text-align: left;padding-left: 5.5rem;}
+.PatRegRateTableTr td:first-child{float:left;padding-left: 5.5rem;}

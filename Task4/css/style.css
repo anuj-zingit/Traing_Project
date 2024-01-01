@@ -1,0 +1,68 @@
+body{
+   font-family: Arial, Helvetica, sans-serif;  
+}
+a{color: white;}
+h1,h2,h3,h4,h5,h6{color: #FA057E;margin-top: 15px;}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+p,li{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1.5em;
+    margin-inline-start:15px;
+    margin-inline-end: 15px;
+    line-height: 1.5em;
+}
+li{margin-block-end: 1em;}
+/* header and menubar start here */
+#logo_text{font-size: 150%;margin: 3rem;}
+#header{}
+#logo_text h1 a{color:black;text-decoration: none;}
+#logo_text h2{color: black;font-size: medium;font-size: small;}
+.logo_color{color: #FA057E;}
+.logo_color1{color: #f5f5f5; }
+#menubar{background-color: black;}
+#menubar ul{display: flex; border-bottom: 5px solid #fff;}
+#menubar ul li{padding: 20px;list-style: c;}
+#menubar ul li a{text-decoration: none;font-size: x-large;align-items:center;}
+#menubar ul li:hover, #menubar ul li.selected{background-color: #FA057E;}
+/* header and menubar end */
+
+/* sidebar start here */
+#side_content{margin-top: 0.3rem;background-color: black;color: white;height: 150rem;}
+.sidebar{float: right;width: 350px;text-align: justify;margin-left: 2rem;}
+#content{float:left;width: 64%;padding: 1%;}
+
+#search-form p input{height: 2rem;}
+
+.left{float: left;margin-right: 10px;}
+.center{text-align: center;display: block;}
+.right{float: right;}
+tbody{display: table-row-group;vertical-align: middle;background-color: rgb(11, 87, 62);}
+tr{display:table-row;vertical-align: inherit;}
+table{margin: 20px 0 30px 0;width: 30rem;}
+table tr th, table tr td {
+    background: #3B3B3B;
+    color: #FFF;
+    padding: 7px 4px;
+    text-align: left;
+}
+table tr td {
+    background: #F0EFE2;
+    color: #47433F;
+    border-top: 1px solid #FFF;
+}
+.submitBtn{text-align: center;}
+.submit{width: 8rem;height: 1.8rem;}
+/* input{height: 1.8rem;width: 15rem;} */
+.Text_Heading{margin: 2px;} */
+.form_Settings{margin: 0px;}
+.form_Settings span{
+    float: left;
+    width: 200px;
+    text-align: left;
+}
+/* .form_Settings input{height: 2rem;width: 20rem;} */
+#id {height: 2rem;width: 20rem;}

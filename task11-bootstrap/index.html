@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="styleSheet" href="css/bootstrap.css">
+    <link rel="styleSheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col searchbar">
+                <h1 class="m-0">logo</h1>
+                <input type="search" placeholder="search">
+            </div>
+        </div>
+        
+        <div class="row body-container">
+            <div class="col-md col-sm left-body">
+                <form>
+                    <div class="form-group">
+                      <label for="exampleInputEmail1">Email address</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                      <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleInputPassword1">Password</label>
+                      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                    </div>
+                    <div class="form-check">
+                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                      <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                  </form>
+            </div>
+            <div class="col-md col-sm">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi amet sunt impedit deleniti consequatur molestiae, culpa quod suscipit, maxime vero autem perferendis eligendi qui dignissimos, vel dolorem esse quis nisi?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi amet sunt impedit deleniti consequatur molestiae, culpa quod suscipit, maxime vero autem perferendis eligendi qui dignissimos, vel dolorem esse quis nisi?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi amet sunt impedit deleniti consequatur molestiae, culpa quod suscipit, maxime vero autem perferendis eligendi qui dignissimos, vel dolorem esse quis nisi?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi amet sunt impedit deleniti consequatur molestiae, culpa quod suscipit, maxime vero autem perferendis eligendi qui dignissimos, vel dolorem esse quis nisi?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi amet sunt impedit deleniti consequatur molestiae, culpa quod suscipit, maxime vero autem perferendis eligendi qui dignissimos, vel dolorem esse quis nisi?</p>
+            </div>
+        </div>
+        <div class="offset-2">
+            <form class="form-inline">
+                <div class="form-group">
+                  <label for="focusedInput">Focused</label>
+                  <input class="form-control" id="focusedInput" type="text">
+                </div>
+                <div class="form-group">
+                  <label for="inputPassword">Disabled</label>
+                  <input class="form-control" id="disabledInput" type="text" disabled>
+                </div>
+                <div class="form-group has-success has-feedback">
+                  <label for="inputSuccess2">Input with success</label>
+                  <input type="text" class="form-control" id="inputSuccess2">
+                  <span class="glyphicon glyphicon-ok form-control-feedback"></span>
+                </div>
+                <div class="form-group has-warning has-feedback">
+                  <label for="inputWarning2">Input with warning</label>
+                  <input type="text" class="form-control" id="inputWarning2">
+                  <span class="glyphicon glyphicon-warning-sign form-control-feedback"></span>
+                </div>
+                <div class="form-group has-error has-feedback">
+                  <label for="inputError2">Input with error</label>
+                  <input type="text" class="form-control" id="inputError2">
+                  <span class="glyphicon glyphicon-remove form-control-feedback"></span>
+                </div>
+              </form>
+              <h4>break</h4>
+
+              <form class="form-horizontal">
+                <div class="form-group">
+                  <label class="col-sm-2 control-label">Focused</label>
+                  <div class="col-sm-10">
+                    <input class="form-control" id="focusedInput" type="text" value="Click to focus">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="disabledInput" class="col-sm-2 control-label">Disabled</label>
+                  <div class="col-sm-10">
+                    <input class="form-control" id="disabledInput" type="text" disabled>
+                  </div>
+                </div>
+                <fieldset disabled>
+                  <div class="form-group">
+                    <label for="disabledTextInput" class="col-sm-2 control-label">Fieldset disabled</label>
+                    <div class="col-sm-10">
+                      <input type="text" id="disabledTextInput" class="form-control">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="disabledSelect" class="col-sm-2 control-label"></label>
+                    <div class="col-sm-10">
+                      <select id="disabledSelect" class="form-control">
+                        <option>Disabled select</option>
+                      </select>
+                    </div>
+                  </div>
+                </fieldset>
+                <div class="form-group has-success has-feedback">
+                  <label class="col-sm-2 control-label" for="inputSuccess">
+                  Input with success and icon</label>
+                  <div class="col-sm-10">
+                    <input type="text" class="form-control" id="inputSuccess">
+                    <span class="glyphicon glyphicon-ok form-control-feedback"></span>
+                  </div>
+                </div>
+                <div class="form-group has-warning has-feedback">
+                  <label class="col-sm-2 control-label" for="inputWarning">
+                  Input with warning and icon</label>
+                  <div class="col-sm-10">
+                    <input type="text" class="form-control" id="inputWarning">
+                    <span class="glyphicon glyphicon-warning-sign form-control-feedback"></span>
+                  </div>
+                </div>
+                <div class="form-group has-error has-feedback">
+                  <label class="col-sm-2 control-label" for="inputError">
+                  Input with error and icon</label>
+                  <div class="col-sm-10">
+                    <input type="text" class="form-control" id="inputError">
+                    <span class="glyphicon glyphicon-remove form-control-feedback"></span>
+                  </div>
+                </div>
+              </form>
+        </div>
+        <div class="row footer">
+            <h2>thanks</h2>
+        </div>
+
+
+
+    </div>
+</body>
+</html>

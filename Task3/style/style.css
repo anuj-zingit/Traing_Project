@@ -1,0 +1,124 @@
+*{ margin: 0%;padding: 0%;margin-top: 0px;}
+body{font-family: Arial, Helvetica, sans-serif;margin-top: 0px;}
+/*nicePage   */
+#nicepage{background-color:#f2f2f2;}
+
+
+
+/* .headerpage{background-color:#f2f2f2;;position:fixed; z-index: 3;width: 100%; margin-top: 0rem;}
+.headerpage img{margin: 1%;} */
+
+
+.navigation{display:flex;justify-content: space-between;;font:20% ;}
+.navigation h1{font-size: xx-large;}
+.navigation a{position: relative;}
+.navigation img{height: 3rem;width:2 rem;background-color: none;}
+/* menubar start here */
+#menubar
+{
+    display: grid;
+    grid-template-rows:37.5rem;
+    background-color: rgb(5, 5, 5);
+    width: 15rem;
+    justify-content: center;
+    font-size: 1.5rem;
+    opacity: 0.9;
+    color: #fff;
+    position: absolute;
+    margin-top: 3.5rem;
+}
+#menubar li{
+    list-style: none;
+}
+#menubar ul{
+margin-top: 5rem;
+}
+#menubar a{
+text-decoration: none;
+color: #fff;
+}
+
+/* <!--week wraper stert here --> */
+.content-body{display: flex; background-color: #f2f2f2;height: 35rem;width: 83.8rem;}
+.container_change{font-weight: Arial, Helvetica, sans-serif;font-size: 0.8rem;}
+
+
+.col1{margin-left:3%;margin-top:25px;box-sizing: border-box;width: 45rem;}
+.col1 h1{font-size: 2.75rem;text-align: center;margin-top: 7rem;}
+.col1 p{margin-top: 2rem;line-height:2;font-family: 'Open Sans',sans-serif;text-align: center;}
+.col1 button{margin-top: 2rem;margin-left: 10rem;background-color: black;color:whitesmoke;height: 3rem;width:10rem;border-radius: 25px;letter-spacing: 3px;}
+.col2 img{height: 35rem;width: 45rem;}
+.system-container{min-height: 920px;}
+.system-container span h1{margin-left:15rem;margin-top: 6rem;}
+.system-container span p{margin-left:36rem;font-family: 'Open Sans',sans-serif;letter-spacing:2px;margin-top: 1rem;}
+.system-container img{margin-top: 15rem;position:absolute;max-width: 100%;}
+.box-container{display: flex;margin: 6rem;position: relative;}
+.box1 h1{margin: 3rem;text-align: center;}
+.box1 h3{text-align:center ;}
+.box1 p{margin:2rem;font-style: italic;}
+.box1{border: 8px solid rgb(63, 5, 5);height:17rem;width:25rem;margin:1rem}
+.box2{border-color: rgb(255, 44, 44);}
+.box3{border-color:  #00ac17;}
+.box4{border-color: rgb(18, 0, 85);}
+/* weekSection start */
+.Week{min-height: 1630px;}
+.Week h1{margin-left:25rem;margin-top: 6rem;}
+.container{margin: 2rem;margin-left: 0rem;}
+.wcol1{border-right-color: #001aac;}
+.col p{float: left;text-align: end;}
+.container1 img {width: 3rem;float: right;}
+.nimg2 img{border-left:  #001aac;}
+
+.col{border-right: 8px solid ;width: 25rem;height: 12rem;margin-left: 15rem;}
+.nimg1{border-right-color: #00ac17; background-color: beige;}
+.nimg2{border-right-color: #001aac;background-color: rgb(97, 97, 54);}
+.nimg3{border-right: none;border-left:8px solid #00ac17;background: rgb(139, 139, 34);}
+.nimg4{border-right: none;border-left:8px solid #c8e9cc;background: rgb(220, 245, 237);}
+.nimg3 img{float:left;background-color: yellow; }
+.nimg4 img{float:left; }
+.container2{margin-top: 5rem; border-right: none;}
+.bottomImage img{width: 83.7rem;position: absolute;}
+.box-container-week{border: 8px solid rgb(63, 5, 5);width: 45rem;height:30rem;position: relative;color: black;margin-left: 20rem;margin-top: 15rem;background-color: #fff;}
+.box-container-week h2{text-align: center;margin-top: 3rem;}
+.box-container-week  p{text-align: center;margin-top: 2rem;margin-left: 0rem;}
+.weekbutton{margin-left: 7rem;margin-top: none;}
+button:hover{color: #001aac;background-color: hsl(0, 83%, 46%);}
+
+/* about page start contactpage */
+.contactpage{margin: 5rem;}  
+.aboutpage{height: 86rem;}
+.about  h1{margin-left: 28rem;margin-top: 15rem;}
+.about  p{margin: 3rem; margin-left: 6rem;}
+.box5{border-right-color:fuchsia}
+.calender-bottom-image{position: absolute;width: 100%;}
+.calender-bottom-image img{width: 100%;}
+.icon-container img{width: 2rem;}
+.meditation-contact{position: relative; text-align: center;margin-top: 25rem;color:#fff;}
+.Reuse-button1{margin-left: 19rem;}
+.Reuse-button1 input{height: 3rem;width: 15rem; font-size: larger;border-radius: 25px;}
+.Reuse-button1 label{font-size: x-large;}
+.follow-icon{justify-content: center;margin-top: 10rem;margin-left: 12rem;}
+.icon-section img{width:3rem;padding: 1px;}
+.leftCol1{padding:2rem;border-left: 8px solid rgb(255, 44, 44);width: 12rem;height: 5rem;border-right:none;margin:0 rem;}
+.partition-container{display: flex;}
+.newContainer{ margin-left: 0rem;}
+
+/* contactPage start */
+.contactPage{height: 47.2rem;}
+.cont_back-image img{width: 100%;position: absolute;}
+.reflexive-form{position: relative;color: white;padding: 12rem;}
+.contact-body{display: flex; padding: 0rem;}
+.contact-body img{width: 1.5rem;margin-top: 1rem;}
+.contact-body li{font-size: xxlarge;padding: 18px;list-style: none;}
+.form{margin-left: 0rem;}
+.form label{padding: 18px;font-size: x-large;}
+.input-section{display:flex;margin: 0rem;}
+.section2{margin-left: 2rem;}
+.input-section input{width: 15rem;height: 2rem;border-top-color:forestgreen;background-color: none;}
+input{width: 25rem;height: 2rem;}
+button{width: 25rem;height: 2rem;border-radius: 15px;}
+.information h3{font-size: x-large;line-height: 2;}
+/* footer */
+.footer{background-color:black ;width: 100%;height: 15rem;color:white;text-align: center;line-height: 8;}
+
+

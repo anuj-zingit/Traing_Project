@@ -1,0 +1,127 @@
+Create your repositories
+ # Reinitialize git while being in the folder with the code
+   git init
+
+  # Create the initial commit
+   git add .
+   git commit -m 'Initial commit'
+
+  # Connect to your project repository
+  git remote add origin your-project-repo-url
+
+  # Push the code to GitHub
+   git push origin master
+
+   Step 2: Frontend repository
+
+a.Create a new GitHub repository for the frontend
+
+b.Clone the frontend boilerplate code to your machine
+
+c. Connect the local frontend code to your frontend GitHub repo
+
+# Install dependencies and start working
+
+Before you start working with the provided code remember to run npm install to install all of the dependencies/packages provided in the package.json of each boilerplate.
+
+# Command-
+ npm install 
+ npm build
+ npm start
+
+*{margin: 0;padding: 0;}
+body{font-family:Arial, Helvetica, sans-serif}
+#main{
+    display: grid; 
+    grid-template-areas: 
+    'header header'
+    'right left'
+    'footer footer';
+    gap: 10px;
+}
+li{list-style: none;}
+
+
+#footer{border:3px solid black; grid-area: footer;}   
+
+
+/* header and navigation start here */
+#header{ grid-area: header;}
+.logo{grid-area: header;border:3px solid black ;}
+.black,.pink,.white{font-size: 3rem;}
+.black{color: black;}
+.pink{color: pink;}
+.white{color:rgb(214, 205, 205)}
+.logo p{margin-top: 0px;}
+#navigation{background-color: black;color: #fff;grid-area: header;border:3px solid black ;}
+#navigation ul{display: flex;}
+#navigation ul li{padding: 1rem;font-size: 1.3rem;}
+/* <!-- /header and navigation end here / --> */
+
+/* <!-- sideBody start here --> */
+#sideBody{border:3px solid black ;}
+.rightBody{border:3px solid black; grid-area: right;}
+.leftBody{border:3px solid black; grid-area: left;}
+
+
+
+<!-- html code -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Grid</title>
+</head>
+
+<body>
+    <div id="main">
+        <!-- /header and navigation start here / -->
+
+        <section id="header">
+            <div class="logo">
+                <div class="logo_text">
+                </div>
+                <span class="black">black</span>
+                <span class="pink">_pink</span>
+                <span class="white">_white</span>
+                <p>Simple. Contemporary. Website Template.</p>
+            </div>
+            <div id="navigation">
+                <ul>
+                    <li><a>HOME</a></li>
+                    <li><a>EXAMPLE</a></li>
+                    <li><a>A PAGE</a></li>
+                    <li><a>ANOTHER PAGE</a></li>
+                    <li><a>CONTACT US</a></li>
+
+                </ul>
+            </div>
+        </section>
+        <!-- /header and navigation end here / -->
+
+
+        <!-- sideBody start here -->
+            <div class="rightBody">
+                <h1>right</h1>
+                  
+            </div>
+            <div class="leftBody">
+                <h1>left</h1>
+            </div>
+
+
+        <div id="footer">
+            <h2>Awesome</h2>
+        </div>
+
+    </div>
+</body>
+
+</html>
+
+   

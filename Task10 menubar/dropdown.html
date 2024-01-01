@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/phone.css" />
+    <script>
+
+        function myFunction() {
+            var x = document.getElementById("menuicon")
+            if (x.className === "toggle-icon") {
+                x.className += "responsive";
+            }
+            else {
+                x.className = "toggle-icon";
+            }
+        }
+    </script>
+    <title>Dropdown</title>
+</head>
+<body>
+    <header class="heder">
+        <div class="menubar">
+            <div class="toggle-icon" id="menuicon">
+                <a href="javascript:void(0)" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+                <ul>
+                    <li><a class="active" href="#">Home</a></li>
+                    <li>
+                        <a class="" href="#">About Us</a>
+                        <ul class="submenu">
+                            <li><a href="#">Mission</a></li>
+                            <li><a href="#">Vision</a></li>
+                            <li><a href="#">Team</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">Services</a>
+                        <ul class="submenu">
+                            <li><a href="#">Web designing</a></li>
+                            <li><a href="#">Marketing</a>
+                                <i class="fa fa-angle-right"></i>
+                                <ul class="submenu-inner">
+                                    <li><a href="#">Mission</a></li>
+                                    <li><a href="#">Vision</a></li>
+                                    <li><a href="#">Team</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">Mobile App</a>
+                                <i class="fa fa-angle-right"></i>
+                                <ul class="submenu-inner">
+                                    <li><a href="#">Android</a></li>
+                                    <li><a href="#">Ios App </a></li>
+                                    <li><a href="#">Ionic App</a></li>
+                                    <li><a href="#">Flatter App</a></li>
+                                    <li><a href="#">Unity App</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Clients</a></li>
+                    <li><a href="#">Investers</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+</body>
+
+</html>

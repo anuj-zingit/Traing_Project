@@ -1,0 +1,10 @@
+@media only screen and (max-width: 768px) 
+  {
+    body 
+    {
+      background-color: lightblue;
+    }
+    .menubar i{display: block;}
+    .menubar ul{display: block;}
+    .submenu-inner{position:absolute;right: 0px;top: 25px;display:block;}
+  }

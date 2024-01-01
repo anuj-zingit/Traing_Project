@@ -1,0 +1,43 @@
+*{margin: 0; padding: 0;}
+body{font-family: Verdana, Arial, Helvetica, sans-serif;background-color: #fff;
+     line-height: 1.7em;font-size: 1.5rem;
+}
+ul{display: flex;}
+li{list-style: none;padding: 1rem;padding-top:2rem;}
+span{font-size: 1rem;}
+h1,h2,h3,h4{color: #009999;}
+a,p{text-decoration: none;color: #666666;}
+a:hover{color:#33CCFF;text-decoration: underline;font-style: normal;}
+h4{font-size: 1.4rem;}
+p{font-size: 0.95rem;line-height: 1.8rem;margin-bottom: 1rem;}
+
+/* heder start here */
+#header{display: flex;padding: 1rem;justify-content: space-between;align-items: center;}
+.menu ul li{padding: 1rem;}
+
+/* navigation start here */
+#searchbar{height: 17rem;;align-items: center;display: flex;}
+#searchbar img{height:15rem;width: 100%;position: absolute;}
+.search_container{display: flex;position:absolute;justify-content: center;width: 100%;align-content: center;}
+.search_container input{width: 18rem;height: 3rem;}
+.search_container button{width: 3rem;}
+
+
+
+
+/* bodyContainer start here */
+.img_container img{width:100%;}
+.tittle{display:flex;justify-content: space-between;}
+#bodyContainer h3{margin: 1rem;}
+.FooterLink{justify-content: space-between;margin-top: 3rem;}
+
+
+/* About Catalog-Z start here */
+#AboutCatalogBody{background-color: #F2F2F2;margin-top: 2rem;}
+.about_container {justify-content:space-around;}
+.text{width: 25rem;}
+.aboutFooter{justify-content: space-around;margin-top: 2rem;}
+
+
+/* AboutPage */
+#AboutPage{margin-top: 2rem;margin: 1rem;}

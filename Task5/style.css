@@ -1,0 +1,55 @@
+*{margin: 0;padding: 0;}
+body{font-family:Arial, Helvetica, sans-serif}
+#main{
+    display: grid; 
+    grid-template-areas: 
+    'header header header'
+    'left left right'
+    'footer footer footer';
+    grid-template-columns: 10px;
+    row-gap: 10px;
+}
+li{list-style: none;}
+h1,h2,h3,h4,h5,h6{color: #FA057E;margin-top: 1rem;}
+#leftBody,#rightBody{background-color: black;padding: 2rem;color:white}
+a,a:hover{color: #fff;}
+a:hover{text-decoration: none;}
+p{word-spacing: 0.1rem;font-size: 1rem;line-height:1.5;margin-top: 2rem;}
+ul,li{margin-top: 1rem;}
+
+#footer{border:3px solid black; grid-area: footer;}   
+
+
+/* header and navigation start here */
+#header{ grid-area: header;}
+.logo{grid-area: header;border:3px solid black ;}
+.black,.pink,.white{font-size: 3rem;}
+.black{color: black;}
+.pink{color: pink;}
+.white{color:rgb(214, 205, 205)}
+.logo p{margin-top: 0px;}
+#navigation{background-color: black;color: #fff;grid-area: header;border:3px solid black ;}
+#navigation ul{display: flex;}
+#navigation ul li{padding: 1rem;font-size: 1.3rem;}
+/* <!-- /header and navigation end here / --> */
+
+/* <!-- sideBody start here --> */
+#rightBody{border:3px solid black; grid-area: right;}
+#leftBody{border:3px solid black; grid-area: left;}
+
+/* examplePage start here */
+.leftImg{display: flex; }
+.CenterImg{text-align: center;}
+.image{width: 15vw;height: 17.5vh;}
+table, th, td {
+    width: 33rem;padding: 1rem;
+}
+
+th{background-color:#3B3B3B;color: #fff}
+td{background-color:#fff ;color: black;}
+
+/* form */
+.Form span{width: 15rem;display: inline-block;}
+.field{width: 20rem;color: #05faa8;height: 1.5rem;}
+
+.submit{width: 4rem;height: 2rem;float: right;margin-right: 13rem;}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Week</title>
+    <style>
+        body{
+            box-sizing: border-box;
+            background-color: lightgreen;
+        }
+
+        @media only screen and (max-width: 600px) {
+            body {
+                background-color: lightblue;
+            }
+        }
+        @media only screen and (min-width: 800px) {
+            body {
+                background-color: rgb(230, 173, 201);
+            }
+        }
+        li{border: 1px solid red;
+                max-width: 100%;
+                height: 10vh; 
+                /* grid-area: ; */
+
+        }
+
+            ul {
+                
+                /* float: left; */
+                display: grid;
+                /* /* grid-template-columns: 15px,15px,13px;* */
+                grid-template-columns: auto ;
+                
+               
+                
+              
+            }
+
+            div {
+                border: 1px solid red;
+                width: 75%;
+                height: 100vh;
+                float: right;
+                word-spacing: 8px;
+                line-height: 3;
+                justify-items:center;
+                
+            }
+    </style>
+</head>
+
+<body>
+
+
+
+
+    <ul>
+        <li>one</li>
+        <li>two</li>
+        <li>three</li>
+    </ul>
+
+    <div>
+        <h1>The city</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, corrupti tempora debitis, eum voluptatibus
+            nisi temporibus voluptate velit non aliquam eaque fugit mollitia aut quod dignissimos itaque rerum ab eos.
+        </p>
+        <input type="type" value="jjjj" placeholder="button">
+
+    </div>
+
+</body>
+
+</html>

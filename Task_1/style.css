@@ -1,0 +1,54 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    
+}
+body{
+    background-color: bisque;
+}
+.heder{
+    background-color: blue;
+}
+img{
+    height: 60px;
+    width: 90px;
+}
+
+nav{
+    display: flex;
+    font-size: xx-large;
+    display: block;
+    background-color: aqua;
+
+}
+.sidebar{
+    font-size: large;
+    background-color: beige;
+    height: 520px;
+    width: 30%;
+
+}
+.container{
+    display: grid;
+    display: flex;
+    box-sizing: content-box;
+    grid-gap: 10px;
+    /* grid-template-areas: ; */
+    /* //margin:30px */
+   
+}
+.homePage{
+    /* //margin: 15px; */
+    margin-left: 120px;
+    width: 50%;
+}
+.footer{
+    background-color: blue;
+   
+}
+.contact-form{
+    margin-left: 120px;
+}
+a:hover {
+    background-color: rosybrown;
+  }
